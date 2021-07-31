@@ -27,3 +27,13 @@
 .portfolio-font {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* positioning */
+
+.portfolio-mr-auto {
+    margin-right: auto;
+}
+
+.portfolio-ml-auto {
+    margin-left: auto;
+}
