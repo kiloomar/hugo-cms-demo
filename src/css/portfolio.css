@@ -1,0 +1,29 @@
+/* Variables */
+
+:root {
+    --portfolio-primary: rgba(224, 122, 95, 1);
+    --portfolio-white: rgba(244, 241, 222, 1);
+    --portfolio-success: rgba(88, 129, 87, 1);
+    --portfolio-info: rgba(128, 164, 237, 1);
+    --portfolio-danger: rgba(90, 0, 2, 1);
+}
+
+/* Backgrounds */
+
+.portfolio-bg-primary {
+    background-color: var(--portfolio-primary);
+}
+
+/* Font */
+
+.portfolio-primary {
+    color: var(--portfolio-primary);
+}
+
+.portfolio-white {
+    color: var(--portfolio-white);
+}
+
+.portfolio-font {
+    font-family: 'Open Sans', sans-serif;
+}
