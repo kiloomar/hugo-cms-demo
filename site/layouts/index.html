@@ -4,8 +4,28 @@
 
 <!-- {{ partial "short-text" .Params.blurb}} -->
 
-{{ partial "filter" }}
+<!-- {{ partial "filter" . }} -->
 
+<div class="bg-center">
+    <div class="mw9 center ph3-ns">
+        <div class="cf ph2-ns">
+            {{ range $elem_index, $elem_val := $.Params.work }}
+            <div class="fl w-100 w-25-ns pa2">
+                <div class="pv4">
+                    {{ 
+                        partial "card" (dict 
+                            "title" (index $.Params.work $elem_index).title
+                            "description" (index $.Params.work $elem_index).description
+                            "image" (index $.Params.work $elem_index).image
+                        ) 
+                    }}
+                    <!-- {{$elem_val}} -->
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
 <!-- {{ partial "2-up" .Params }} -->
 
 <!-- {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
