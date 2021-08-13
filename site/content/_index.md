@@ -2,23 +2,6 @@
 title: "Great coffee with a conscience"
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
-work:
-    - image: 'img/illustrations-coffee.svg'
-      title: 'Order system'
-      description: 'sampletext'
-      github: 'img/icon.svg'
-    - image: 'img/illustrations-coffee.svg'
-      title: 'Booking system'
-      description: 'sampletext2'
-      github: 'img/icon.svg'
-    - image: 'img/illustrations-coffee.svg'
-      description: 'sampletext3'
-      title: 'Illustration software'
-      github: 'img/icon.svg'
-    - image: 'img/illustrations-coffee.svg'
-      description: 'sampletext4'
-      title: '3D engine'
-      github: 'img/icon.svg'
 blurb:
     heading: Why Kaldi?
     text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
